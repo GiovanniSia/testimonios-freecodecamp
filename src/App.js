@@ -1,6 +1,7 @@
+import { React, Fragment } from 'react';
+
 import './App.css';
 import { Testimonio } from './componentes/Testimonio.jsx';
-
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,7 @@ function App() {
         imagen='emma'
         cargo='Software Engineer'
         empresa='Spotify'
-        testimonio={`${<strong>con negrita</strong>} sin negrita`} />
+        testimonio= {<Fragment>sd sd fasd fsad fasd fsadfdsfsdfsd <strong>Con negrita</strong></Fragment>} />
       </div>
       <Testimonio 
         nombre='Maria sarah'
@@ -20,7 +21,7 @@ function App() {
         imagen='sarah'
         cargo='Software Engineer'
         empresa='Spotify'
-        testimonio='Soy muy itelidfldskjfsdalfj sdkl fsadlkfjsdñlkfjsdkl fjsda fjsdakf dskñ fsdjñkl fjñksadñlkjfsdljkñ fslkj flkjñs dañlkjfslkñjfsdlkjñ slkdfkjsdalkf sdlkjñ falkdslkjaslkjñfklñjl' />
+        testimonio= {<Fragment>sdfsadfafsf <strong>asksjfksfj </strong></Fragment>} />
   <Testimonio 
         nombre='Pedro shawn'
         pais='Sweden'
